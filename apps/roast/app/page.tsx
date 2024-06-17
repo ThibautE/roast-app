@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Button } from "@ui/components/button"
+import { Button, Progress } from "@ui/components/index";
 
 export default function Page(): JSX.Element {
   return (
@@ -26,6 +26,7 @@ export default function Page(): JSX.Element {
           </div>
         </div>
       </div>
+                <Progress value={43} />
     </main>
   )
 }
